@@ -1,0 +1,67 @@
+.reportbackground{
+    border: 1px solid;
+    width:650px;
+    height:525px;
+    left:275px;
+    top:175px;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    border-color: #e4e1e1;
+}
+
+.submission{
+    position: absolute;
+    border:1px solid;
+    border-color: black;
+    width:250px;
+    height: 200px;
+    left:35px;
+    top:25px;
+    border-radius: 25px;
+    border-color: #e4e1e1;
+}
+
+.grading{
+    position: absolute;
+    border:1px solid;
+    border-color: black;
+    width:250px;
+    height: 200px;
+    left:355px;
+    top:25px;
+    border-radius: 25px;
+    border-color: #e4e1e1;
+}
+
+.certificate{
+    position: absolute;
+    border:1px solid;
+    border-color: black;
+    width:250px;
+    height: 200px;
+    left:200px;
+    top:285px;
+    border-radius: 25px;
+    border-color: #e4e1e1;
+}
+
+#submission, #grading, #certificate{
+    position: absolute;
+    width:250px;
+    height:50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top:150px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background-color:#7F63F4;;
+}
+
+#gradepicture, #subpicture, #certpicture{
+    width:150px;
+    position: absolute;
+    left:50px;
+}

@@ -1,0 +1,329 @@
+body{
+    background-color: whitesmoke;
+}
+
+#goback{
+    font-size: 25px;
+    position: absolute;
+    top:25px;
+    left:25px;
+    text-decoration: none;
+    cursor: pointer;
+    color:#888888;
+    text-indent: 15px;
+}
+
+#icon{
+    font-size: 35px;
+    position: absolute;
+    left:-35px;
+    top:-3px;
+}
+
+#myreportbg{
+    position: absolute;
+    width:920px;
+    border:1px solid;
+    height:645px;
+    top:80px;
+    left:350px;
+    background-color: white;
+    border-color: #e4e1e1;
+    border-radius: 25px;
+    background-image: url("http://localhost/admin/image/cert.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+.divider{
+    top:1700px;
+    position: absolute;
+    
+}
+
+#progtitle{
+    position: absolute;
+    left:400px;
+    top:10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid;
+    width:550px;
+    height:50px;
+    line-height: 45px;
+    text-indent: 25px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#titlebackground{
+    border:1px solid;
+    width:250px;
+    height: 50px;
+    position: absolute;
+}
+
+.submitbutton{
+    width:150px;
+    height:35px;
+    background-color: #7F63F4;
+    border-radius: 25px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    top:18px;
+    left:985px;
+    position: absolute;
+}
+
+#studentselection{
+    position: absolute;
+    width:200px;
+    height:25px;
+    top:23px;
+    z-index: 2;
+    left:725px;
+    border-radius: 15px;
+    text-indent: 5px;
+}
+
+#print{
+    border: 1px solid;
+    width:50px;
+    height:30px;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #7F63F4;
+    border-color:transparent;
+    cursor:pointer;
+    color:white;
+    text-indent: 6px;
+    padding-top: 5px;
+    position: absolute;
+    top:18px;
+    left:1150px;
+}
+
+#logo{
+    position: absolute;
+    width:200px;
+    left:350px;
+    top:50px;
+}
+
+#subreport{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: arial;
+    top:150px;
+    left:250px;
+    letter-spacing: 5px;
+}
+
+#subreport2{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: arial;
+    top:250px;
+    left:325px;
+    letter-spacing: 1px;
+}
+
+#innerreport{
+    border:1px solid;
+    width:900px;
+    height:125px;
+    position: absolute;
+    top:225px;
+    left:75px;
+    border-color: transparent;
+
+}
+
+#repdetail{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.detail{
+    font-size: 17px;
+    position: relative;
+    font-weight: bold;
+}
+
+#generatename{
+    position: absolute;
+    left:325px;
+    top:40px;
+}
+
+#generatedate{
+    position: absolute;
+    left:325px;
+    top:78px;
+}
+
+#student{
+    position: absolute;
+    left:650px;
+    top:40px;
+}
+
+#supervisor{
+    position: absolute;
+    left:650px;
+    top:78px;
+}
+
+#reportline{
+    position: absolute;
+    left:20px;
+    top:350px;
+    width:950px;
+    color:#e4e1e1;
+}
+
+#div{
+    width:250px;
+    position: absolute;
+    top:350px;
+    left:325px;
+}
+
+#studname{
+    font-size: 20px;
+    left:325px;
+    top:325px;
+    position: absolute;
+    letter-spacing: 1px;
+    border:1px solid;
+    width: 250px;
+    text-align: center;
+    border-color: transparent;
+}
+
+#complete{
+    position: absolute;
+    top:400px;
+    left:375px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#div2{
+    position: absolute;
+    width:250px;
+    left:325px;
+    top:475px;
+
+}
+
+
+
+#gradename{
+    position: absolute;
+    left:325px;
+    top:445px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width:250px;
+    border:1px solid;
+    text-align: center;
+    border-color: transparent;
+}
+
+#fyp{
+    position: absolute;
+    left:355px;
+    top:525px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#sign{
+    position: absolute;
+    font-size: 15px;
+    top:475px;
+    left:700px;
+    letter-spacing: 1px;
+}
+
+#signdiv{
+    width:150px;
+    position: absolute;
+    top:525px;
+    left:700px;
+}
+
+#bracket{
+    position: absolute;
+    font-size: 13px;
+    top:550px;
+    left:700px;
+    letter-spacing: 1px;
+    color:#888888;
+}
+
+#date{
+    position: absolute;
+    font-size: 15px;
+    top:475px;
+    left:55px;
+    letter-spacing: 1px;
+}
+
+#datediv{
+    width:150px;
+    position: absolute;
+    top:525px;
+    left:55px;
+}
+
+#mydate{
+    position: absolute;
+    top:510px;
+    left:85px;
+    letter-spacing: 1px;
+}
+
+@media print {
+    #myreportbg {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        border-color: transparent;
+        
+    }
+
+    .submitbutton{
+        display: none;
+    }
+
+    #studentselection{
+        display: none;
+    }
+
+    #print{
+        display: none;
+    }
+
+    #progtitle{
+        display: none;
+    }
+}

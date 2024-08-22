@@ -1,0 +1,156 @@
+.searchinguser{
+    position: relative;
+    left:10px;
+    top:75px;
+}
+
+#searchbutton{
+    border-color: transparent;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    left:50px;
+    top:2px;
+    z-index: 2;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#searchbox{
+    border-radius: 100px;
+    position: relative;
+    height:35px;
+    width:800px;
+    text-indent: 50px;
+    font-size: 16px;
+
+}
+
+#result{
+    position: absolute;
+    color:#888888;
+    font-weight: bold;
+    font-size: 13px;
+    top:175px;
+    left:950px;
+}
+
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+.contactbackground{
+    position: absolute;
+    overflow-y: scroll;
+    border: 1px solid;
+    width:1100px;
+    height:480px;
+    top:250px;
+    left:280px;
+    overflow-y: scroll;
+    border-color: transparent;
+}
+
+#contactbox{
+    border:1px solid;
+    width:500px;
+    height: 175px;
+    position: relative;
+    top:0px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-color: #e4e1e1;
+}
+
+#contactid{
+    font-style: arial;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left:50px;
+    top:25px;
+}
+
+#contactname{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left:65px;
+    top:65px;
+    color:#888888;
+}
+
+#contactemail{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left:65px;
+    top:95px;
+    color:#888888;
+}
+
+#contactcreated{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left:65px;
+    top:125px;
+    color:#888888;
+}
+
+#contactviewbutton{
+    background-color: #7f63F4;
+    border: 1px solid;
+    width:100px;
+    height:35px;
+    position: absolute;
+    top:125px;
+    left:375px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    text-indent: 28px;
+    line-height: 35px;
+}
+
+#contactdelete{
+    position: absolute;
+    color:white;
+    font-size: 18px;
+    left: 450px;
+    top:25px;
+    cursor: pointer;
+}
+
+#contactdelete:hover{
+    color:red;
+}
+
+#viewed{
+    font-size: 15px;
+    color:#438afe;
+    position: absolute;   
+    top:85px;
+    left:390px;
+    font-weight: bold;
+
+}
+
+#filtercontact{
+    position: absolute;
+    left:1150px;
+    top:195px;
+}
+
+#contactfilter{
+    width: 125px;
+    height:30px;
+    font-size: 18px;
+}
