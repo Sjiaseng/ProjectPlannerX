@@ -1,2 +1,2 @@
 # ProjectPlannerX
-Assignment Submission System - (HTML, CSS, JavaScript, PHP, MySQL) - Admin Section
+Assignment Management and Planning System - (HTML, CSS, JavaScript, PHP, MySQL) - Admin Section
