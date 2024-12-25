@@ -109,7 +109,7 @@
                 }
 
             echo '
-                <img src="http://localhost/admin/image/Logo2.png" id="logo">
+                <img src="./image/Logo2.png" id="logo">
                 <span id="subreport">CERTIFICATE</span>
                 <span id="subreport2">This Certificate is Awarded to</span>
         
