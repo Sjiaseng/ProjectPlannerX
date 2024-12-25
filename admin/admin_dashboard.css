@@ -1,0 +1,459 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.summaryreport{
+    position: relative;
+    border:1px solid;
+    width:800px;
+    height:325px;
+    left:250px;
+    top:25px;
+    border-color: transparent;
+}
+
+.summary1, .summary2, .summary3, .summary4, .summary5, .summary6{
+    border:1px solid;
+    height:85px;
+    width:325px;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-indent: 50px;
+    line-height: 125px;
+}
+
+.summary1{
+    left:0px;
+    top:0px;
+    background-color:#71D875;
+}
+
+.summary2{
+    left:350px;
+    top:0px;
+    background-color:#FF9800;
+}
+
+.summary3{
+    left:0px;
+    top: 105px;
+    background-color:#2290FF;
+}
+
+.summary4{
+    left:350px;
+    top: 105px;
+    background-color:#ffc107;
+}
+
+.summary5{
+    left:0px;
+    top:210px;
+    background-color:#ff5274;
+}
+
+.summary6{
+    left:350px;
+    top:210px;
+    background-color:#d85bf7;
+}
+
+.numbers{
+    color: white;
+    font-weight: bold;
+    line-height: 65px;
+    position: absolute;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.circle{
+    border: 1px solid;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    top:15px;
+    left:250px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.activeprogram{
+    border: 1px solid;
+    background-color: white;
+    width:450px;
+    height:250px;
+    position: relative;
+    left:1050px;
+    top:25px;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.programtitle{
+    font-size: 18px;
+    position: absolute;
+    line-height: 50px;
+    left:35px;
+}
+
+.classes{
+    position: relative;
+    width:375px;
+    height:45px;
+    border:1px solid;
+    top:50px;
+    left:30px;
+    font-size: 15px;
+    border-color: transparent;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    line-height: 45px;
+    text-indent: -200px;
+    color:#6a707e;
+}
+
+.classes span{
+    position: relative;
+    left:250px;
+    color:#6a707e;
+}
+
+.todolistbackground{
+    background-color: white;
+    position: absolute;
+    width:675px;
+    height:250px;
+    border: 1px solid;
+    left:285px;
+    top:475px;
+    border-color: transparent;
+    overflow-y: scroll;
+}
+
+.todolisttitle{
+    border: 1px solid;
+    width:673px;
+    height:35px;
+    background-color: #f6f6f9;
+    font-weight: bold;
+    line-height: 35px;
+    text-indent: 25px;
+    border-color: transparent;
+}
+
+.todocontent{
+    width:673px;
+    height:35px;
+    position: relative;
+    border:1px solid;
+    border-color: transparent;
+    border-bottom-color:#e4e1e1;
+
+}
+
+#todotitle{
+    font-size: 15px;
+    position: absolute;
+    left:25px;
+    top:8px;
+}
+
+#tododate{
+    font-size: 13px;
+    position: absolute;
+    top:8px;
+    left:375px;
+    color:#888888;
+}
+
+#tododelete{
+    color:white;
+    top:-5px;
+    left:625px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#tododelete:hover{
+    color:red;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+#todoaddicon{
+    position: absolute;
+    left:575px;
+    top:5px;
+    cursor: pointer;
+    color:#888888;
+    font-size: 18px;
+}
+
+#todoaddicon:hover{
+    color:black;
+}
+
+.wrapper{
+    background:white;
+    width: 350px;
+    height: 310px;
+    border-radius: 10px;
+    position: absolute;
+    left:1100px;
+    top:125px;
+    font-family: 'Poppins';
+    overflow: scroll;
+}
+
+.calendar ul{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 12px;
+    text-indent: -1px;
+}
+
+.wrapper header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .current-date{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top:-5px;
+    left:100px;
+    word-wrap: nowrap ;
+
+}
+
+.arrow-left{
+    top:5px;
+    left:15px;
+}
+
+.arrow-right{
+    top:5px;
+    left: 250px;
+}
+
+header .calendar-icon span{
+    height:25px;
+    width:25px;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    text-indent: 2px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+header .calendar-icon span:hover{
+    background: #f2f2f2;
+}
+
+.calendar ul li{
+    width:calc(100%/7);
+    position: relative;
+
+}
+
+.calendar{
+    position: absolute;
+    top:60px;
+    left:-10px;
+}
+
+
+.calendar .calendar-days li{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -3px;
+    z-index: 1;
+    left:0px;
+}
+
+.calendar .calendar-days{
+    margin-bottom: 0px;
+}
+
+.calendar .calendar-days li::before{
+    position: absolute;
+    content:"";
+    height: 30px;
+    width: 30px;
+    background:transparent;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.calendar-days li:hover::before{
+    background: #f2f2f2;
+}
+
+.innerwrapper{
+    position: absolute;
+    width:300px;
+    height: 35px;
+    border: 1px solid;
+    background: #e9f0ff;
+    border-radius: 25px;
+    border-color: transparent;
+    top:38px;
+    left:25px;
+}
+
+.calendar-topic{
+    position: absolute;
+    font-weight: bold;
+    left:15px;
+    top:10px;
+}
+
+.inactivedate{
+    color:#aaaaaa;
+}
+
+.calendar li.activedate::before{
+    background:#7f63f4;
+}
+
+.activedate{
+    color:white;
+}
+
+.wrapper::-webkit-scrollbar{
+    width:0px;
+}
+
+.calendar-days li:hover{
+    background-color: transparent;
+}
+
+#weekday{
+    position: absolute;
+    top:12px;
+    left:275px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#888888;
+
+}
+
+#todoback{
+    border: 1px solid;
+    width:100%;
+    height: 760px;
+    position: absolute;
+    z-index: 3;
+    left:0px;
+    top:0px;
+    background: grey;
+    opacity: 75%;
+    display: none;
+}
+
+#tododialog{
+    position: absolute;
+    width:300px;
+    left:650px;
+    top:225px;
+    height:300px;
+    border: 1px solid;
+    background: white;
+    z-index: 4;
+    border-color: #e4e4e4;
+    border-radius: 25px;
+    display: none;
+}
+
+#tddate{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left:35px;
+    top:50px;
+}
+
+#innertddate{
+    width:200px;
+    height:25px;
+}
+
+#tddesc{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left:35px;
+    top:135px;
+}
+
+#innerdesc{
+    width:225px;
+    height: 75px;
+}
+
+#tdsubmit{
+    border: 1px solid;
+    width: 75px;
+    height: 30px;
+    background-color: #7f63f4;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    left:200px;
+    top:260px;
+}
+
+.tdtopic{
+    position: absolute;
+    left:25px;
+    top:15px;
+    font-size: 18px;
+    color:#7f63f4;
+
+}
+
+#tdclose{
+    position: absolute;
+    left:265px;
+    top:10px;
+    cursor: pointer;
+}
+
+#studentcount{
+    position: absolute;
+    left:480px;
+    top:10px;
+    font-size: 12px;
+}
+
+#supervisorcount{
+    position: absolute;
+    left:480px;
+    font-size: 12px;
+    top:-10px;
+}
+
+

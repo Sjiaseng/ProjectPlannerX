@@ -1,0 +1,296 @@
+body{
+    background-color: whitesmoke;
+}
+
+#goback{
+    font-size: 25px;
+    position: absolute;
+    top:25px;
+    left:25px;
+    text-decoration: none;
+    cursor: pointer;
+    color:#888888;
+    text-indent: 15px;
+}
+
+#icon{
+    font-size: 35px;
+    position: absolute;
+    left:-35px;
+    top:-3px;
+}
+
+#myreportbg{
+    position: absolute;
+    width:1000px;
+    border:1px solid;
+    height:1540px;
+    top:85px;
+    left:275px;
+    background-color: white;
+    border-color: #e4e1e1;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+.divider{
+    top:1700px;
+    position: absolute;
+    
+}
+
+#progtitle{
+    position: absolute;
+    left:400px;
+    top:10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid;
+    width:550px;
+    height:50px;
+    line-height: 45px;
+    text-indent: 25px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+#titlebackground{
+    border:1px solid;
+    width:250px;
+    height: 50px;
+    position: absolute;
+}
+
+.submitbutton{
+    width:150px;
+    height:35px;
+    background-color: #7F63F4;
+    border-radius: 25px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    top:18px;
+    left:985px;
+    position: absolute;
+}
+
+#programselection{
+    position: absolute;
+    width:200px;
+    height:25px;
+    top:23px;
+    z-index: 2;
+    left:725px;
+    border-radius: 15px;
+    text-indent: 5px;
+}
+
+#print{
+    border: 1px solid;
+    width:50px;
+    height:30px;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #7F63F4;
+    border-color:transparent;
+    cursor:pointer;
+    color:white;
+    text-indent: 6px;
+    padding-top: 5px;
+    position: absolute;
+    top:18px;
+    left:1150px;
+}
+
+#logo{
+    position: absolute;
+    width:350px;
+    left:300px;
+    top:25px;
+}
+
+#subreport{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: arial;
+    top:150px;
+    left:400px;
+
+}
+
+#innerreport{
+    border:1px solid;
+    width:900px;
+    height:125px;
+    position: absolute;
+    top:225px;
+    left:75px;
+    border-color: transparent;
+
+}
+
+#repdetail{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.detail{
+    font-size: 17px;
+    position: relative;
+    font-weight: bold;
+}
+
+#generatename{
+    position: absolute;
+    left:325px;
+    top:40px;
+}
+
+#generatedate{
+    position: absolute;
+    left:325px;
+    top:78px;
+}
+
+#student{
+    position: absolute;
+    left:650px;
+    top:40px;
+}
+
+#supervisor{
+    position: absolute;
+    left:650px;
+    top:78px;
+}
+
+#reportline{
+    position: absolute;
+    left:20px;
+    top:350px;
+    width:950px;
+    color:#e4e1e1;
+}
+
+#copyright{
+    position: absolute;
+    font-size: 15px;
+    color:#888888;
+    top:1500px;
+    left:370px;
+}
+
+.title0{
+    position: absolute;
+    top:395px;
+    left:75px;
+    font-weight: bold;
+}
+
+.title1{
+    position: absolute;
+    top:395px;
+    left:300px;
+    font-weight: bold;
+}
+
+.title2{
+    position: absolute;
+    top:395px;
+    left:600px;
+    font-weight: bold;
+}
+
+.title3{
+    position: absolute;
+    top:395px;
+    left:825px;
+    font-weight: bold;
+}
+
+.reportbg2{
+    position: absolute;
+    border:1px solid;
+    width:925px;
+    height:1050px;
+    top:435px;
+    left:35px;
+    border-color: transparent;
+}
+
+#mydata{
+    position: relative;
+    width:925px;
+    height:45px;
+    border:1px solid;
+    border-color: transparent;
+}
+
+#titlea{
+    position: absolute;
+    top:10px;
+    left:65px;
+}
+
+#titleb{
+    position: absolute;
+    top:10px;
+    left:265px;
+}
+
+#titlec{
+    position: absolute;
+    top:10px;
+    left:560px;
+}
+
+#titled{
+    position: absolute;
+    top:10px;
+    left:785px;
+}
+
+#titlec2{
+    position: absolute;
+    top:10px;
+    left:560px;
+    color:red;
+    font-weight: bold;
+}
+
+#titled2{
+    position: absolute;
+    top:10px;
+    left:785px;
+    color:red;
+    font-weight: bold;
+}
+
+@media print {
+    #myreportbg {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        border-color: transparent;
+    }
+
+    #programselection{
+        display:none;
+    }
+}

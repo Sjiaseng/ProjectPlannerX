@@ -1,0 +1,181 @@
+#result{
+    position: absolute;
+    color:#888888;
+    font-weight: bold;
+    font-size: 13px;
+    top:175px;
+    left:950px;
+}
+
+.searchinguser{
+    position: relative;
+    left:10px;
+    top:75px;
+}
+
+#searchbutton{
+    border-color: transparent;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    left:50px;
+    top:2px;
+    z-index: 2;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#searchbox{
+    border-radius: 100px;
+    position: relative;
+    height:35px;
+    width:800px;
+    text-indent: 50px;
+    font-size: 16px;
+
+}
+
+.myappointmentbg{
+    position: absolute;
+    border:1px solid;
+    width:1200px;
+    height:495px;
+    top:250px;
+    left:275px;
+    border-color: transparent;
+    overflow-y: scroll;
+}
+
+#insidecontainer{
+    position: relative;
+    border:1px solid;
+    width:1100px;
+    height:175px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border-color: #e4e1e1;
+
+}
+
+#mystatus1{
+    height:175px;
+    position: absolute;
+    border:1px solid;
+    width:30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: orange;
+    border-color: transparent;
+}
+
+#mystatus2{
+    height:175px;
+    position: absolute;
+    border:1px solid;
+    width:30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: green;
+    border-color: transparent;
+}
+
+#mystatus3{
+    height:175px;
+    position: absolute;
+    border:1px solid;
+    width:30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+    border-color: transparent;
+}
+
+#mystatus1:hover{
+    width:35px;
+    transition-duration: 0.5s;
+}
+
+#mystatus2:hover{
+    width:35px;
+    transition-duration: 0.5s;
+}
+
+#mystatus3:hover{
+    width:35px;
+    transition-duration: 0.5s;
+}
+
+#aid{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: #888888;
+    left:45px;
+    top:15px;
+}
+
+#adata{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    position: absolute;
+    left:45px;
+    top:35px;
+}
+
+#adesc{
+    font-size: 13px;
+    color:#888888;
+    left:45px;
+    top:65px;
+    position: absolute;
+    top:70px;
+    font-weight: bold;
+    left:55px;
+    word-wrap: break-word;
+    border: 1px solid;
+    width:375px;
+    height:80px;
+    overflow-y: scroll;
+    border-color: transparent;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+#atime{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: #888888;
+    left:255px;
+    top:15px;
+}
+
+#studname{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    left:450px;
+    top:95px;
+}
+
+#supername{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    left:450px;
+    top:130px;
+}
+
+#delete{
+    position: absolute;
+    left:1050px;
+    top:15px;
+    color:red;
+    font-size: 18px;
+    cursor: pointer;
+}
